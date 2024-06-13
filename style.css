@@ -1,0 +1,67 @@
+:root, [data-theme] {
+    /* background-color: var(--fallback-b1, oklch(var(--b1) / 1)); */
+    /* color: var(--fallback-bc, oklch(var(--bc) / 1)); */
+background: hsl(47, 88%, 63%);
+}
+
+body {
+  /* height: 100vh; */
+  font-family: Figtree;
+}
+
+
+.card {
+  margin: 2.5rem auto;
+  border: 1px solid hsl(0, 0%, 7%);
+  /* -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
+box-shadow: 8px 8px  hsl(0, 0%, 7%);
+transition: all ease-in-out;
+
+}
+
+.card:hover {
+    box-shadow: 15px 15px hsl(0, 0%, 7%);
+
+}
+
+.card-title {
+  background-color: hsl(47, 88%, 63%);
+  width: 40%;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.description {
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: hsl(0, 0%, 7%);
+}
+
+.card-actions h2 {
+  margin-top: 0.5rem;
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+}
+
+.card-body {
+  /* padding: var(--padding-card, 0.4rem); */
+  padding: 0;
+  gap: 0;
+}
+
+.card figure img {
+  border-radius: 10px;
+}
+
+.card-actions img {
+  width: 50px;
+}
+
+.card-info {
+  color: hsl(0, 0%, 50%);
+  font-size: 16px;
+  opacity: 0.8;
+}
