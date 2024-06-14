@@ -51,13 +51,15 @@ transition: all ease-in-out;
 }
 
 .card-body {
-  /* padding: var(--padding-card, 0.4rem); */
-  padding: 0;
+  padding: var(--padding-card, 0.4rem);
+  /* padding: 0; */
   gap: 0;
 }
 
 .card figure img {
   border-radius: 10px;
+  width: 400px;
+  height: 200px;
 }
 
 .card-actions img {
