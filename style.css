@@ -7,7 +7,7 @@ body {
   background: hsl(47, 88%, 63%);
   /* height: 100vh !important; */
   /* width: 100vw; */
-  /* height: auto; */
+  height: auto;
   font-family: Figtree, sans-serif;
 }
 
@@ -20,7 +20,6 @@ body {
   transition: all ease-in-out;
   background-color: hsl(0, 0%, 100%);
   border-radius: 18px;
-  height: 501px;
 }
 
 .card:hover {
