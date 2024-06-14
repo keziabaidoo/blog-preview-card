@@ -32,9 +32,10 @@ body {
   width: 50%;
   padding: 0.5rem 1.5rem;
   border-radius: 5px;
-  margin-top: 1rem;
-  margin-bottom: 0.8rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
   font-weight: 600;
+  font-size: 0.9rem;
 }
 
 .description {
@@ -72,6 +73,11 @@ body {
   color: hsl(0, 0%, 50%);
   font-size: 16px;
   opacity: 0.8;
+}
+
+.data {
+  font-size: 15px;
+  color: hsl(0, 0%, 7%);
 }
 
 @media screen and (max-width: 760){
