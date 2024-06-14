@@ -20,7 +20,7 @@ body {
   transition: all ease-in-out;
   background-color: hsl(0, 0%, 100%);
   border-radius: 18px;
-  height: auto;
+  height: 560px;
 }
 
 .card:hover {
@@ -29,12 +29,12 @@ body {
 
 .card-title {
   background-color: hsl(47, 88%, 63%);
-  width: 50%;
-  padding: 0.5rem 1.5rem;
+  width: 40%;
+  padding: 0.5rem 1rem;
   border-radius: 5px;
   margin-top: 0.7rem;
   margin-bottom: 0.7rem;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.9rem;
 }
 
@@ -42,13 +42,13 @@ body {
   margin-top: 0.8rem;
   margin-bottom: 0.8rem;
   font-weight: 800;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: hsl(0, 0%, 7%);
 }
 
 .card-actions h2 {
-  margin-top: 0.9rem;
-  font-size: 16px;
+  margin-top: 0.8rem;
+  font-size: 15px;
   color: hsl(0, 0%, 7%);
   font-weight: 800;
 }
@@ -60,14 +60,12 @@ body {
 }
 
 .card-img-top {
-  border-radius: 10px;
+  border-radius: 15px;
 }
 .card-actions img {
-  width: 50px;
+  width: 40px;
 }
 
-.card-actions {
-}
 
 .card-info {
   color: hsl(0, 0%, 50%);
