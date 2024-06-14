@@ -2,8 +2,11 @@ body {
   background: hsl(47, 88%, 63%);
   /* height: 100vh !important; */
   /* width: 100vw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: auto;
-  font-family: Figtree;
+  font-family: Figtree, sans-serif;
 }
 
 .card {
