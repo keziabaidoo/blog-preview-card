@@ -17,8 +17,6 @@ body {
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); */
 box-shadow: 8px 8px  hsl(0, 0%, 7%);
 transition: all ease-in-out;
-background-color:hsl(0, 0%, 100%) ;
-border-radius: 25px;
 
 }
 
@@ -27,19 +25,20 @@ border-radius: 25px;
 
 }
 
+.w-96 {
+    width: 20rem;
+}
+
 .card-title {
   background-color: hsl(47, 88%, 63%);
-  width: 35%;
+  width: 40%;
   padding: 0.5rem 1.5rem;
   border-radius: 5px;
-  margin-top: 1.3rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
   font-weight: 600;
 }
 
 .description {
-    margin-bottom: 0.5rem;
-    padding-top: 1rem;
   font-weight: 800;
   font-size: 1.4rem;
   color: hsl(0, 0%, 7%);
