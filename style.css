@@ -1,7 +1,7 @@
-#root {
+/* :root {
   display: flex;
   justify-content: center;
-}
+} */
 
 body {
   background: hsl(47, 88%, 63%);
