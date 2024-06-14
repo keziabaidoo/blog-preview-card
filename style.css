@@ -1,7 +1,7 @@
 body {
   background: hsl(47, 88%, 63%);
-  height: 100vh !important;
-  width: 100vw;
+  /* height: 100vh !important; */
+  /* width: 100vw; */
   height: auto;
   font-family: Figtree;
 }
